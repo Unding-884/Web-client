@@ -1,5 +1,6 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
+  modules: ['@nuxthq/ui', '@nuxtjs/tailwindcss'],
   app: {
     head: {
       title: 'Your Default Title', // Default title for the app
